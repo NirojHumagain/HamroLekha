@@ -1,0 +1,148 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.top-bar {
+  width: 100%;
+  background: #ff8128;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.row {
+  width: 1140px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item1 {
+  height: 100hv;
+  width: 570px;
+}
+
+.item2 {
+  height: 100hv;
+  width: 570px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 0 0px 0 0;
+  background: #fff;
+  position: relative;
+  z-index: 1000 !important;
+}
+
+.child1 {
+  width: 475;
+  -ms-flex: 0 0 41.666667%;
+  -webkit-box-flex: 0;
+          flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.logo {
+  position: relative;
+  margin-top: 15px;
+}
+
+img {
+  width: 223px;
+}
+
+.sec-menu {
+  width: 70px;
+  border-left: solid 0px #ccc;
+  margin-top: 0;
+  position: relative;
+  top: 3px;
+  padding: 0px 10px;
+  color: #000;
+  border-left: solid 1px #ccc;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Colores =====*/
+:root {
+  --first-color: #4070F4;
+  --second-color: #0E2431;
+}
+
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== Margenes =====*/
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*===== z index =====*/
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=styles.css.map */
